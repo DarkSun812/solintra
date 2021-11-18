@@ -1,0 +1,200 @@
+@import url('fonts/BrixSansRegular.css');
+@import url('fonts/BrixSansBlack.css');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p, label, span, table{
+	font-family: 'BrixSansRegular';
+	font-size: 9pt;
+}
+.h2{
+	font-family: 'BrixSansBlack';
+	font-size: 16pt;
+}
+
+.page-header-safi {
+    padding-bottom: 44%;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.solborde{
+
+	border-bottom: solid 1px grey;
+    width: 19%;
+    height: 100%;
+    border-top: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+}
+
+.h21{
+	font-family: 'sans-serif;';
+	font-size: 36pt;
+	background: #0a4661;
+    color: #FFF;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+.h3{
+	font-family: 'BrixSansBlack';
+	font-size: 12pt;
+	display: block;
+	background: #0a4661;
+	color: #FFF;
+	text-align: center;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+.h31{
+	font-family: 'BrixSansBlack';
+	font-size: 20pt;
+	/*display: block;*/
+	background: #0a4661ab;
+	color: #FFF;
+	padding: 3px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#page_pdf{
+	width: 95%;
+	margin: 15px auto 10px auto;
+}
+
+#factura_head, #factura_cliente, #factura_detalle{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.logo_factura{
+	width: 25%;
+	text-align: left;
+}
+.info_empresa{
+	width: 50%;
+	text-align: center;
+}
+.info_factura{
+	width: 25%;
+	text-align: right;
+}
+.info_cliente{
+	width: 100%;
+}
+.datos_cliente{
+	width: 100%;
+}
+.datos_cliente tr td{
+	width: 50%;
+}
+.datos_cliente{
+	padding: 10px 10px 0 10px;
+}
+.datos_cliente label{
+	width: 75px;
+	display: inline-block;
+}
+.datos_cliente p{
+	display: inline-block;
+}
+
+.textright{
+	text-align: right;
+}
+.textleft{
+	text-align: left;
+}
+.textcenter{
+	text-align: center;
+}
+.round{
+	border-radius: 10px;
+	border: 1px solid #0a4661;
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+.round1{
+	
+	/*border: 1px solid #0a4661;*/
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+.round2{
+	
+	border: 1px solid #0a4661;
+	overflow: hidden;
+	padding-bottom: 15px;
+	text-align: right;
+	font-size: 12pt;
+}
+.round3{
+	
+	
+	overflow: hidden;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 12pt;
+}
+
+.size{
+	font-size: 14pt;
+}
+}
+
+.round p{
+	padding: 0 15px;
+}
+
+#factura_detalle{
+	border-collapse: collapse;
+}
+#factura_detalle thead th{
+	background: #058167;
+	color: #FFF;
+	padding: 5px;
+}
+#detalle_productos tr:nth-child(even) {
+    background: #ededed;
+}
+#detalle_totales span{
+	font-family: 'BrixSansBlack';
+}
+.nota{
+	font-size: 8pt;
+}
+.label_gracias{
+	font-family: verdana;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-top: 20px;
+}
+.anulada{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.btn2{
+
+  color: #fff;
+  /*background-color: #386399;*/
+  border-color: #386399;
+  box-shadow: none;
+  margin-left: 600px;
+  margin-right: 600px;
+  height: 40px;
+  width: 15%;
+  font-family: 'BrixSansBlack';
+  font-size: 12pt;
+  display: block;
+  background: #0a4661;
+  text-align: center;
+    padding: 3px;
+    margin-bottom: 5px;
+}
